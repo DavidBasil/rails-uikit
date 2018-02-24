@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'cover/index'
+
   get 'container/index'
 
   get 'comment/index'
@@ -23,4 +25,5 @@ Rails.application.routes.draw do
 	resources :column
 	resources :comment
 	resources :container
+	resources :cover
 end
