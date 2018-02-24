@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 	resources :alert
 	resources :align
 	resources :animation
+	resources :article
 end
