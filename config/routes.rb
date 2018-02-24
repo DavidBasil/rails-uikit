@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'close/index'
+
   get 'card/index'
 
   get 'button/index'
@@ -11,4 +13,5 @@ Rails.application.routes.draw do
 	resources :background
 	resources :button
 	resources :card
+	resources :close
 end
