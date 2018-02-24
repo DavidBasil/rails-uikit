@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'container/index'
+
   get 'comment/index'
 
   get 'column/index'
@@ -20,4 +22,5 @@ Rails.application.routes.draw do
 	resources :close
 	resources :column
 	resources :comment
+	resources :container
 end
