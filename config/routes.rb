@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'drop/index'
+
   get 'dotnav/index'
 
   get 'cover/index'
@@ -29,4 +31,5 @@ Rails.application.routes.draw do
 	resources :container
 	resources :cover
 	resources :dotnav
+	resources :drop
 end
