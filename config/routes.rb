@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'column/index'
+
   get 'close/index'
 
   get 'card/index'
@@ -14,4 +16,5 @@ Rails.application.routes.draw do
 	resources :button
 	resources :card
 	resources :close
+	resources :column
 end
