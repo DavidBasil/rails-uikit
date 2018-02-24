@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'card/index'
+
   get 'button/index'
 
 	resources :accordion
@@ -8,4 +10,5 @@ Rails.application.routes.draw do
 	resources :article
 	resources :background
 	resources :button
+	resources :card
 end
