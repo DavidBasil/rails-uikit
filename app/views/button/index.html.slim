@@ -1,0 +1,51 @@
+div(uk-margin)
+  a.uk-button.uk-button-default Click me
+  button.uk-button.uk-button-default Click me
+  button.uk-button.uk-button-default(disabled) Disabled
+  button.uk-button Send email
+
+  button.uk-button.uk-button-primary Primary
+  br
+  button.uk-button.uk-button-secondary Secondary
+  br
+  button.uk-button.uk-button-danger Danger
+  br
+  button.uk-button.uk-button-text Text
+  br
+  button.uk-button.uk-button-link Link
+  br
+  button.uk-button.uk-button-primary.uk-button-small Small button
+  br
+  button.uk-button.uk-button-secondary.uk-button-large Large button
+  br
+  button.uk-button.uk-button-danger.uk-width-1-1 Width
+
+  div.uk-button-group
+    button.uk-button.uk-button-primary Primary
+    button.uk-button.uk-button-secondary Secondary
+    button.uk-button.uk-button-danger Danger
+
+  br
+  button.uk-button.uk-button-danger(type="button") Dropdown
+  div(uk-dropdown)
+    ul.uk-nav.uk-dropdown-nav
+      li
+        a Item1
+      li
+        a Item2
+      li
+        a Item3
+
+  div.uk-button-group
+    button.uk-button.uk-button-default Click me
+    div.uk-inline
+      button.uk-button.uk-button-default(type="button")
+        span(uk-icon="icon: triangle-down")
+      div(uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true")
+        ul.uk-nav.uk-dropdown-nav
+          li  
+            a Item 1
+          li  
+            a Item 2
+          li  
+            a Item 3
