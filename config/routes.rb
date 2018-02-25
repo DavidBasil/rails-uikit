@@ -1,26 +1,4 @@
 Rails.application.routes.draw do
-  get 'form/index'
-
-  get 'dropdown/index'
-
-  get 'drop/index'
-
-  get 'dotnav/index'
-
-  get 'cover/index'
-
-  get 'container/index'
-
-  get 'comment/index'
-
-  get 'column/index'
-
-  get 'close/index'
-
-  get 'card/index'
-
-  get 'button/index'
-
 	resources :accordion
 	resources :alert
 	resources :align
@@ -38,6 +16,7 @@ Rails.application.routes.draw do
 	resources :drop
 	resources :dropdown
 	resources :form
+	resources :grid
 end
 
 
