@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'notification/index'
+
   get 'navbar/index'
 
 	resources :accordion
@@ -26,4 +28,5 @@ Rails.application.routes.draw do
 	resources :modal
 	resources :nav
 	resources :navbar
+	resources :notification
 end
