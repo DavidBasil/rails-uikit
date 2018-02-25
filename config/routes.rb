@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'navbar/index'
+
 	resources :accordion
 	resources :alert
 	resources :align
@@ -23,4 +25,5 @@ Rails.application.routes.draw do
 	resources :margin
 	resources :modal
 	resources :nav
+	resources :navbar
 end
