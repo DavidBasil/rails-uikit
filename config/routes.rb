@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'heading/index'
+
 	resources :accordion
 	resources :alert
 	resources :align
@@ -17,6 +19,5 @@ Rails.application.routes.draw do
 	resources :dropdown
 	resources :form
 	resources :grid
+	resources :heading
 end
-
-
