@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'list/index'
+
   get 'lightbox/index'
 
   get 'heading/index'
@@ -23,4 +25,5 @@ Rails.application.routes.draw do
 	resources :grid
 	resources :heading
 	resources :lightbox
+	resources :list
 end
