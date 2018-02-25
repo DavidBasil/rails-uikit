@@ -1,0 +1,33 @@
+/ button to toggle modal
+button.uk-button.uk-button-default.uk-margin-left.uk-margin-top uk-toggle="target: #modal" Book
+
+/ modal
+div#modal uk-modal=""
+  div.uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical
+    h3.uk-modal-title Double Room
+    form.uk-width-1-2
+      label.uk-label Name:
+      input.uk-input type="text"
+      label.uk-label Email:
+      input.uk-input type="email"
+
+    p.uk-text-right
+      button.uk-button.uk-button-danger.uk-modal-close.uk-margin-small-right Cancel
+      button.uk-button.uk-button-primary Book
+
+br
+br
+/ header and footer
+
+a.uk-button.uk-button-default href="#modal-sections" uk-toggle=""  Open
+#modal-sections uk-modal="" 
+  .uk-modal-dialog
+    button.uk-modal-close-default type="button" uk-close="" 
+    .uk-modal-header
+      h2.uk-modal-title Modal Title
+    .uk-modal-body
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .uk-modal-footer.uk-text-right
+      button.uk-button.uk-button-default.uk-modal-close type="button"  Cancel
+      button.uk-button.uk-button-primary type="button"  Save
+

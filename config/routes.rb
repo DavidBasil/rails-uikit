@@ -1,12 +1,4 @@
 Rails.application.routes.draw do
-  get 'margin/index'
-
-  get 'list/index'
-
-  get 'lightbox/index'
-
-  get 'heading/index'
-
 	resources :accordion
 	resources :alert
 	resources :align
@@ -29,4 +21,5 @@ Rails.application.routes.draw do
 	resources :lightbox
 	resources :list
 	resources :margin
+	resources :modal
 end
