@@ -22,4 +22,5 @@ Rails.application.routes.draw do
 	resources :list
 	resources :margin
 	resources :modal
+	resources :nav
 end
