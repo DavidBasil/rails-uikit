@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'form/index'
+
   get 'dropdown/index'
 
   get 'drop/index'
@@ -35,5 +37,7 @@ Rails.application.routes.draw do
 	resources :dotnav
 	resources :drop
 	resources :dropdown
+	resources :form
 end
+
 

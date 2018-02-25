@@ -1,0 +1,78 @@
+form.uk-width-1-2.uk-padding
+  fieldset.uk-fieldset
+    / name
+    legend.uk-legend Name:
+    input.uk-input.uk-margin type="text" placeholder="name"
+    / select
+    legend.uk-legend Select
+    select.uk-select.uk-margin
+      option Option 1
+      option Option 2
+    / textarea
+    legend.uk-legend Text
+    textarea.uk-textarea.uk-margin rows="5" placeholder="enter your text here"
+    / radio
+    legend.uk-legend Radio
+    label
+      input.uk-radio type="radio" name="radioA"
+        span.uk-margin-small-right.uk-padding-small A
+    label
+      input.uk-radio type="radio" name="radioB"
+        span.uk-margin-small-right.uk-padding-small B
+    / checkbox
+    legend.uk-legend Checkbox
+    label
+      input.uk-checkbox type="checkbox" A
+    label
+      input.uk-checkbox type="checkbox" B
+    / range
+    legend.uk-legend Range
+    input.uk-range type="range" value="2" min="0" max="10" step="0.1"
+
+/ state modifiers
+form.uk-width-1-3
+  input.uk-input.uk-form-danger.uk-margin placeholder="Eror"
+  input.uk-input.uk-form-success placeholder="Success"
+  input.uk-input placeholder="Disabled" disabled=""
+
+/ width modifiers
+form.uk-margin
+  div.uk-margin
+    input.uk-input.uk-form-width-large placeholder="Large"
+  div.uk-margin
+    input.uk-input.uk-form-width-medium placeholder="Medium"
+  div.uk-margin
+    input.uk-input.uk-form-width-small placeholder="Small"
+  div.uk-margin
+    input.uk-input.uk-form-width-xsmall placeholder="XSmall"
+
+/ blank modifier
+form
+  input.uk-input.uk-form-blank.uk-form-width-medium placeholder="Blank input"
+
+hr
+
+/ layout
+form.uk-form-stacked
+
+  div.uk-margin
+    label.uk-form-label Text
+    div.uk-form-controls
+      input.uk-input.uk-form-width-large placeholder="Some text..."
+
+  div.uk-margin
+    label.uk-form-label Select
+    div.uk-form-controls
+      select.uk-select.uk-form-width-small
+        option Option 1
+        option Option 2
+
+/ icons
+form
+  div.uk-margin
+    div.uk-inline
+      span.uk-form-icon uk-icon="icon: mail"
+      input.uk-input
+    div.uk-inline
+      a.uk-form-icon uk-icon="icon: pencil"
+      input.uk-input
