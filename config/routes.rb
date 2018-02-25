@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'lightbox/index'
+
   get 'heading/index'
 
 	resources :accordion
@@ -20,4 +22,5 @@ Rails.application.routes.draw do
 	resources :form
 	resources :grid
 	resources :heading
+	resources :lightbox
 end
