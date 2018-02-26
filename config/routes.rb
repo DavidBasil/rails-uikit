@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'position/index'
+
   get 'notification/index'
 
   get 'navbar/index'
@@ -29,4 +31,5 @@ Rails.application.routes.draw do
 	resources :nav
 	resources :navbar
 	resources :notification
+	resources :position
 end
